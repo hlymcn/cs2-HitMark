@@ -1,0 +1,60 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+
+# NuGet
+*.nupkg
+*.snupkg
+project.lock.json
+project.assets.json
+artifacts/
+packages/
+*.nuget.props
+*.nuget.targets
+
+# Visual Studio Code
+.vscode/
+!.vscode/extensions.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/settings.json
+
+# Dotnet
+*.deps.json
+*.runtimeconfig.json
+*.dll
+*.exe
+*.pdb
+*.mdb
+*.appx
+*.appxupload
+*.appxsym
+*.sh
+*.ps1
+*.cmd
+
+# Logs
+*.log
+*.tlog
+
+# Others
+dist/
+node_modules/
+Thumbs.db
+*.tmp
+*.bak
+*.old
+*.cache
