@@ -44,8 +44,8 @@ public class HitMarkPlugin : BasePlugin, IPluginConfig<Config>
         RegisterListener<Listeners.OnMapEnd>(OnMapEnd);
         RegisterListener<Listeners.CheckTransmit>(OnCheckTransmit);
         RegisterListener<Listeners.OnEntityDeleted>(OnEntityDeleted);
-        AddCommand("hm_toggle_hitmark", "Toggle hitmark particles on/off for yourself.", OnToggleHitMarkCommand);
-        AddCommand("hm_toggle_sound", "Toggle hitmark sounds on/off for yourself.", OnToggleSoundCommand);
+        AddCommand("hitmark", "Toggle hitmark particles on/off for yourself.", OnToggleHitMarkCommand);
+        AddCommand("hitsound", "Toggle hitmark sounds on/off for yourself.", OnToggleSoundCommand);
 
 
         if (Config.MuteDefaultHeadshotBodyshot)
