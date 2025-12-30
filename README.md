@@ -23,6 +23,8 @@
 - **Configurable Durations**: Separate timings for headshot and bodyshot effects
 - **Performance Guard**: Optional max active particles per player
 
+![123](https://github.com/user-attachments/assets/0467a3b9-b39c-4ec5-8a74-a3f93c309cfe)
+
 ## Requirements
 
 - [CounterStrikeSharp](https://github.com/roflmuffin/CounterStrikeSharp)
@@ -135,6 +137,8 @@ Issues and pull requests are welcome
 - **玩家开关**：独立开关 HitMark 与声音
 - **独立时间**：爆头与身体命中时长分别配置
 - **性能保护**：可限制玩家活跃粒子数量
+
+![123](https://github.com/user-attachments/assets/0467a3b9-b39c-4ec5-8a74-a3f93c309cfe)
 
 ## 需求
 
